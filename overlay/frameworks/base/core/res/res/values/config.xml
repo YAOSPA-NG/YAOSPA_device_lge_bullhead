@@ -405,4 +405,7 @@
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
+    <!-- Battery fast charge (in microwatt) -->
+    <integer name="config_chargingFastThreshold">6500000</integer>
+
 </resources>

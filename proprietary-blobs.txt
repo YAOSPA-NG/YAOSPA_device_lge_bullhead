@@ -55,8 +55,6 @@
 /system/bin/qmuxd
 /system/bin/radish
 /system/bin/rmt_storage
-/system/bin/service
-/system/bin/servicemanager
 /system/bin/subsystem_ramdump
 /system/bin/thermal-engine
 /system/bin/time_daemon

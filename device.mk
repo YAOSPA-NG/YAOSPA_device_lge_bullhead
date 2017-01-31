@@ -288,6 +288,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.speaker.prot.enable=true \
     ro.config.vc_call_vol_steps=7
 
+# Qualcomm BT aptXHD
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bt.enableAptXHD=true
+
 # Reduce client buffer size for fast audio output tracks
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1

@@ -374,4 +374,8 @@
    
     <!-- Flag specifying whether Doze is available on device -->
     <bool name="config_enableAutoPowerModes">true</bool>
+
+   <!-- Enable system navigation keys. -->
+   <bool name="config_supportSystemNavigationKeys">true</bool>
+
 </resources>

@@ -169,6 +169,17 @@ on boot
     chown system system /sys/class/leds/blue/on_off_ms
     chown system system /sys/class/leds/red/rgb_start
 
+    # KCAL (enabled by default)
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_enable
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_hue
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_min
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_sat
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_val
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_invert
+    chown 0666 /sys/devices/platform/kcal_ctrl.0/kcal_cont
+    write /sys/devices/platform/kcal_ctrl.0/kcal_enable 1
+
     write /sys/block/mmcblk0/queue/rq_affinity 0
     write /sys/block/mmcblk0/queue/scheduler noop
 
